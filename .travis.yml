@@ -6,7 +6,7 @@ services:
 env:
   global:
   - REACT_APP_API_BASE_URL=http://localhost:8080
-  - PACT_BROKER_BASE_URL=http://anicolas.pactflow.io
+  - PACT_BROKER_BASE_URL=https://anicolas.pactflow.io
   # PACT_BROKER_TOKEN is encrypted below
   - secure: "d12XB2gjk6tvosd9WKwqVnICYDRJ8cXmAgs2cu4sYrohukQ6wBOTiwN3gjCHNMjJe94CHx4bBx/At9PUjEMsG8oc4aCAzVI5//o+9HcFfuNV+UjX3PpfZV9gNV6K2AxG0mAaqAbrsg8AVkPyZIdaJ8RdGQ3Ha3XR6KlQlc1xHbKxcp6Nmmii4s754ptGqExvtPq/54EEu/AjlXTzpRm81SRirUp86pKATyB55XmpmBEweyX04e2wXL2w7dCF3D4FRDQZ/0bsL1rsMaBsTrxFqAqsDDzeZ/HViV4MnohwljqoX8fiBdD0RbB6ESGISbRyEgLrChdema7gXZBOiBAKKitSiA86TZtC9AomRwIit2bsiMK7l72s21HO+3MY7nidFnSbmD18IDesAOmQPX8NaifY7TxIS5bdy2dKNXrhXJddIQgOYTTHHdmixQkjgdcbAGkt399mA+S2KmQVUjFgxqSL1+KNjxl+jNTyJWdzqbBEDXpq+zRhrt3ScsHNGCA/2f03ivQuK7S0bsEj/ISGF5pDq5tY03Sn7R1lD7RhwWCYss39VmiJejJwHg4dbuq/0AaTQaCBDNHbzQE4l8PHMHF3Pc0lNBub1Pilg+/0QhQrGVSRMcjTUawdXmmcnzTleNgjpF9EoJTOc2hZVYEDjl7oA7obe0swrg+xoyYtvxs="
 before_script:
